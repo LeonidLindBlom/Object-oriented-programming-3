@@ -14,12 +14,11 @@ public enum Months {
     NOVEMBER("Ноябрь"),
     DECEMBER("Декабрь");
 
-    private Months(String monthName) {
+    Months(String monthName) {
         this.monthName = monthName;
     }
 
-    private int index;
-    private String monthName;
+    private final String monthName;
 
     public String getMonthName() {
         return monthName;
