@@ -26,7 +26,6 @@ public class Main {
             if (carArray[i].getPrice() <= price) {
                 System.out.println(carArray[i].toString());
             }
-
         }
     }
 }
