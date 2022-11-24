@@ -9,7 +9,6 @@ public class Main {
 
         Scanner priceScanner = new Scanner(System.in);
         Cars[] carArray = new Cars[5];
-        Collections.sort(list);
         list.toArray(carArray);
         for (int i = 0; i < 5; i++) {
             for (int j = i; j < 5; j++) {
